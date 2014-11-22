@@ -13,6 +13,8 @@
 		680F31931A2064B200DA5B23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680F31921A2064B200DA5B23 /* Images.xcassets */; };
 		680F31961A2064B200DA5B23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 680F31941A2064B200DA5B23 /* LaunchScreen.xib */; };
 		680F31A21A2064B200DA5B23 /* SwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F31A11A2064B200DA5B23 /* SwiftAppTests.swift */; };
+		680F31AC1A20782900DA5B23 /* Cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 680F31AB1A20782900DA5B23 /* Cat.jpg */; };
+		680F31AE1A20798000DA5B23 /* pusheen.png in Resources */ = {isa = PBXBuildFile; fileRef = 680F31AD1A20798000DA5B23 /* pusheen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		680F319B1A2064B200DA5B23 /* SwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680F31A01A2064B200DA5B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		680F31A11A2064B200DA5B23 /* SwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTests.swift; sourceTree = "<group>"; };
+		680F31AB1A20782900DA5B23 /* Cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cat.jpg; sourceTree = "<group>"; };
+		680F31AD1A20798000DA5B23 /* pusheen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pusheen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				680F318B1A2064B100DA5B23 /* AppDelegate.swift */,
 				680F318D1A2064B100DA5B23 /* ViewController.swift */,
 				680F318F1A2064B100DA5B23 /* Main.storyboard */,
+				680F31AB1A20782900DA5B23 /* Cat.jpg */,
+				680F31AD1A20798000DA5B23 /* pusheen.png */,
 				680F31921A2064B200DA5B23 /* Images.xcassets */,
 				680F31941A2064B200DA5B23 /* LaunchScreen.xib */,
 				680F31891A2064B100DA5B23 /* Supporting Files */,
@@ -194,7 +200,9 @@
 			files = (
 				680F31911A2064B100DA5B23 /* Main.storyboard in Resources */,
 				680F31961A2064B200DA5B23 /* LaunchScreen.xib in Resources */,
+				680F31AC1A20782900DA5B23 /* Cat.jpg in Resources */,
 				680F31931A2064B200DA5B23 /* Images.xcassets in Resources */,
+				680F31AE1A20798000DA5B23 /* pusheen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
