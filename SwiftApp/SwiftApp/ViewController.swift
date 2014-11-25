@@ -17,8 +17,14 @@ class ViewController: UIViewController {
     @IBAction func btnObtenerEdad(sender: AnyObject) {
         
         var edad = txtEdadGato.text.toInt()
-        edad = edad!*7
-        lblResultado.text = "Su gato tiene \(edad!) anios gato."
+        
+        if((edad) != nil){
+            edad = edad!*7
+            lblResultado.text = "Su gato tiene \(edad!) anios gato."
+        }else{
+            lblResultado.text = "Debe ingresar un numero."
+        }
+        
     }
     
     override func viewDidLoad() {
